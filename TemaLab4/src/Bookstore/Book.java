@@ -44,11 +44,8 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "title='" + title + '\'' +
-                ", author='" + author + '\'' +
-                ", publisher='" + publisher + '\'' +
-                ", pageCount=" + pageCount +
-                '}';
+        return "BOOK_TITLE: " + this.title.toUpperCase()+"\n"+
+                "BOOK_AUTHOR: "+ this.author.toUpperCase()+"\n"+
+                "BOOK_PUBLISHER: "+this.publisher.toUpperCase()+"\n";
     }
 }
